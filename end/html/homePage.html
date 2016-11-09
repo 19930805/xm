@@ -1,0 +1,245 @@
+<div class="homePage">
+    <div class="lunbotu">
+        <div class="lunboimg">
+            <img  ng-repeat="i in $lunboimg" ng-class="{true:'active',false:'hidden'}[$index==count.indexNum]" src={{i}} alt="lunbotu"/>
+        </div>
+        <div class="conlunbo">
+            <span ng-mouseenter="conlunbo($index)" ng-mouseleave="conlunboout($index)" ng-repeat="i in $lunboimg" ng-class="{true:'spanRed',false:'spanBlack'}[$index==count.indexNum]" ></span>
+        </div>
+        <div class="searchall">
+            <input type="text" placeholder="输入关键字搜索" class="search" >
+            <button class="btnsearch">搜索</button>
+            <p>
+                <span>美洲</span><span>欧洲</span><span>澳洲</span><span style="color: red">地中海</span><span>亚洲</span><br/><span>亲子</span><span style="color: red">蜜月</span><span>购物</span><span style="color: red">夕阳红</span>
+            </p>
+        </div>
+    </div>
+    <div class="tenday">
+        <div class="tendayin">
+            <div>欧洲四国文艺田园之旅</div>
+            <div></div>
+            <div>十天玩遍法比荷德</div>
+            <div>查看详情</div>
+        </div>
+    </div>
+    <div class="picture">
+        <div class="picture1">
+            <div class="p1title title">特别推荐</div>
+            <div class="p1con">
+                <img src="img/picture1.jpg" alt=""/>
+                <div class="pict1div">
+                    <p>俄罗斯全景品质之旅</p>
+                    <p>￥18,888</p>
+                    <div>开始您的旅程</div>
+                </div>
+            </div>
+        </div>
+        <div class="picture2">
+            <div class="title">发现之旅</div>
+            <div class="title2">
+                <p>旅行是一场发现</p>
+                <p>发现美好发现自己</p>
+            </div>
+            <div class="picturecount3">
+                <div>
+                    <img src="img/picture21.jpg" alt=""/>
+                    <div class="picword">
+                        <p>绅士之国</p>
+                        <p>豪华魅力英伦游</p>
+                    </div>
+                </div>
+                <div class="picturecount3son">
+                    <img src="img/picture22.jpg" alt=""/>
+                    <div class="picword">
+                        <p>沸腾南美</p>
+                        <p>巴西火热桑巴游</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/picture23.jpg" alt=""/>
+                    <div class="picword">
+                        <p>伏尔加船歌</p>
+                        <p>俄罗斯红色记忆游</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="picture3">
+            <div class="title">自驾之旅</div>
+            <div class="title2">
+                <p>畅享自驾乐趣</p>
+                <p>饱览沿途风景</p>
+            </div>
+            <div class="picturecount3">
+                <div>
+                    <img src="img/picture31.jpg" alt=""/>
+                    <div class="picword">
+                        <p>绅士之国</p>
+                        <p>豪华魅力英伦游</p>
+                    </div>
+                </div>
+                <div class="picturecount3son">
+                    <img src="img/picture32.jpg" alt=""/>
+                    <div class="picword">
+                        <p>沸腾南美</p>
+                        <p>巴西火热桑巴游</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/picture33.jpg" alt=""/>
+                    <div class="picword">
+                        <p>伏尔加船歌</p>
+                        <p>俄罗斯红色记忆游</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="picture4">
+            <div class="title">海上之旅</div>
+            <div class="title2">
+                <p>体验豪华游轮</p>
+                <p>拥抱蓝色大海</p>
+            </div>
+            <div class="picturecount2">
+                <div class="picturecount2son">
+                    <img src="img/picture41.jpg" alt=""/>
+                    <div class="picword">
+                        <p>一路向北</p>
+                        <p>豪华游轮北欧梦幻游</p>
+                    </div>
+                </div>
+                <div class="picturecount3son">
+                    <img src="img/picture42.jpg" alt=""/>
+                    <div class="picword">
+                        <p>蓝色呼唤</p>
+                        <p>豪华游轮地中海恋歌游</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="picture5">
+            <div class="title">朝圣之旅</div>
+            <div class="title2">
+                <p>感受信仰的力量</p>
+                <p>探寻历史的脚踪</p>
+            </div>
+            <div class="picturecount3">
+                <div>
+                    <img src="img/picture51.jpg" alt=""/>
+                    <div class="picword">
+                        <p>绅士之国</p>
+                        <p>豪华魅力英伦游</p>
+                    </div>
+                </div>
+                <div class="picturecount3son">
+                    <img src="img/picture52.jpg" alt=""/>
+                    <div class="picword">
+                        <p>沸腾南美</p>
+                        <p>巴西火热桑巴游</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/picture53.jpg" alt=""/>
+                    <div class="picword">
+                        <p>伏尔加船歌</p>
+                        <p>俄罗斯红色记忆游</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="made">  <!--picture6-->
+        <div class="madecon">
+            <p>量身定制</p>
+            <p>专属玩法</p>
+            <p>【随时出发&nbsp;自由自在&nbsp;去任何想去的地方】</p>
+            <p>点此开启专属之旅</p>
+        </div>
+    </div>
+    <div class="picture">
+        <div class="picture7">
+            <div>
+                <div class="title">签证服务</div>
+                <div class="picture7title">
+                    <span>欧洲国家</span>
+                    <span>美洲国家</span>
+                    <span>亚洲国家</span>
+                    <span>其他国家</span>
+                </div>
+                <div class="picturecount2">
+                    <div class="picturecount2son">
+                        <img src="img/picture71.jpg" alt=""/>
+                        <div class="picword picword7">
+                            <p>法国</p>
+                            <p>旅游签证1400/人</p>
+                            <p>商务签证1400/人</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/picture72.jpg" alt=""/>
+                        <div class="picword picword7">
+                            <p>德国</p>
+                            <p>旅游签证1400/人</p>
+                            <p>商务签证1400/人</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="picturecount3 p7bottom">
+                    <div>
+                        <img src="img/picture73.jpg" alt=""/>
+                        <div class="picword picword7">
+                            <p>意大利</p>
+                            <p>旅游签证1400/人</p>
+                            <p>商务签证1400/人</p>
+                        </div>
+                    </div>
+                    <div class="picturecount3son">
+                        <img src="img/picture74.jpg" alt=""/>
+                        <div class="picword">
+                            <p>英国</p>
+                            <p>旅游签证1400/人</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/picture75.jpg" alt=""/>
+                        <div class="picword">
+                            <p>西班牙</p>
+                            <p>旅游签证1400/人</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="picture8">
+            <div class="title">攻略/游记</div>
+            <div class="picture8in">
+                <div class="picture8in1">
+                    <div>
+                        <img src="img/picture84.jpg" alt=""/>
+                    </div>
+                    <div>
+                        <img class="p8tx" src="img/picture83.jpg" alt=""/>
+                    </div>
+                    <div class="p8word">
+                        <p>新西兰,来到这个地广人稀的国家，走进毛立坚名族</p>
+                        <p>2016年2月12日</p>
+                    </div>
+                </div>
+                <div class="picture8in2">
+                    <div>
+                        <img src="img/picture82.jpg" alt=""/>
+                    </div>
+                    <div>
+                        <img class="p8tx" src="img/picture81.jpg" alt=""/>
+                    </div>
+                    <div class="p8word">
+                        <p>新西兰,来到这个地广人稀的国家，走进毛立坚名族</p>
+                        <p>2016年2月12日</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

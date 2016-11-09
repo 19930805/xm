@@ -1,0 +1,24 @@
+.dz {
+    background: url("../img/dz.jpg") center;
+    height: 600px;
+    margin-bottom: -80px;
+    background-size: cover;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 12px;
+}
+.dz-con {
+    width: 450px;
+    background-color: rgba(0,0,0,0.4);
+    margin: 110px auto 0 auto;
+    padding: 20px 30px 20px 30px;
+}
+.dz-con-title {
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+.dz textarea {
+    resize:none
+}

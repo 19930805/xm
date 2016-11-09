@@ -1,0 +1,119 @@
+/*.mycon {*/
+    /*padding-top: 62px;*/
+/*}*/
+/*产品列表页面*/
+.productlb {
+    padding-top: 62px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.select {
+    background-color: #ffffff;
+    margin-top: 25px;
+    height: 166px;
+    padding: 20px 0 25px 15px;
+    line-height: 30px;
+}
+.select span,i {
+    padding: 0 10px;
+    text-align: center;
+}
+.select span:hover {
+    cursor: pointer;
+}
+.selected {
+    background-color: #d22539;
+    color: white;
+}
+.order {
+    background-color: #ffffff;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+.order span {
+    margin: 0 25px;
+}
+.order span:hover {
+    cursor: pointer;
+}
+.ordsele {
+    color: #d22539;
+}
+.lb {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.lball {
+    display: flex;
+    margin-bottom: 15px;
+}
+.lball img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.lbpic {
+    flex: 2;
+}
+.lbpic.cplb1 {
+    background: url("../img/cplb1.jpg") center;
+    background-size: cover;
+}
+.lbpic.cplb2 {
+    background: url("../img/cplb2.jpg") center;
+    background-size: cover;
+}
+.lbword {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 25px;
+    /*margin-bottom: 15px;*/
+}
+.lbword .lb-title {
+    color: #d22539;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.lbword .lb-con {
+    margin-left: 20px;
+    line-height: 30px;
+}
+.lbword .lb-time {
+    padding: 30px 0 25px 0;
+    border-bottom: dashed 1px black;
+}
+.lbword .lb-price {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.lbword .lb-price .lb-price-now {
+    font-size: 30px;
+    color: rgb(255,126,0);
+}
+.lbword .lb-xq {
+    font-size: 25px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #d22539;
+    color: #ffffff;
+    width: 160px;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    margin-top: -56px;
+    transition: all 1s;
+}
+.lbword .lb-xq:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: #d22539;
+}
+.lb-tz {
+    background-color: white;
+    height: 50px;
+}
+.lb-tz nav ul {
+    margin-top: 8px;
+}
+/*产品详情*/

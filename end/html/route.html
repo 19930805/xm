@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="angularjs-1.3.9.js" type="text/javascript" charset="utf-8"></script>
+    <script src="angular-route-1.3.9.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+        #a2{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body ng-app="myapp">
+<div>
+    非路由
+    <p>
+        <a href="a1.html">this is a1</a>
+        <a href="a2.html">this is a2</a>
+    </p>
+    路由
+    <p>
+        <a href="#/lya1">this is luyou a1</a>
+        <a href="#/lya2">this is luyou a2</a>
+    </p>
+</div>
+<div ng-view>
+    <!--
+        这里是路由展示区
+    -->
+</div>
+<div ng-view>
+    <!--
+        这里是路由展示区
+    -->
+</div>
+<script>
+    angular.module("myapp", ["ngRoute"])
+            .config(function($routeProvider) {
+                $routeProvider
+                        .when("/lya1", {
+                            templateUrl: "a1.html"
+                        })
+                        .when("/lya2", {
+                            templateUrl: "a2.html"
+                        })
+            })
+</script>
+</body>
+</html>

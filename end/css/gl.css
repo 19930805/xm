@@ -1,0 +1,86 @@
+.gl-top {
+    height: 400px;
+    background: url(../img/gl1.jpg) center ;
+    background-size: cover;
+}
+.gl-top-title {
+    text-align: center;
+    color: white;
+    padding: 120px 50px 50px 50px;
+}
+.gl-top-title p:nth-child(1) {
+    font-size: 30px;
+}
+.gl-top-title p:nth-child(2) {
+    font-size: 20px;
+    margin-top: 8px;
+}
+.gl-con {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.gl-con .gl-con-title {
+
+}
+.gl-con .gl-con-title p:nth-child(1) {
+    font-size: 25px;
+    margin: 60px auto 40px auto;
+}
+.gl-con .gl-con-title p:nth-child(2) {
+    font-size: 16px;
+}
+.gl-con .gl-con-title p:nth-child(2) span {
+    margin: 0 15px;
+    padding: 0 15px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    transition:  all 1s;
+}
+.gl-con .gl-con-title p:nth-child(2) span:nth-child(1) {
+    background: #d22539;
+    color: white;
+}
+.gl-con .gl-con-title p:nth-child(2) span:hover {
+    background: #d22539;
+    color: white;
+}
+.gl-con-pic {
+    display: flex;
+    margin-top: 20px;
+}
+.gl-con-pic-left {
+    flex: 1;
+    /*background-color: white;*/
+    padding-bottom: 20px;
+}
+.gl-con-pic-left .glp11 img:nth-child(1) {
+    width: 100%;
+    margin-right: 10px;
+}
+.gl-con-pic-left .glp12 img:nth-child(1) {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.gl-con-pic-right {
+    flex: 1;
+    /*background-color: white;*/
+    padding-bottom: 20px;
+}
+.gl-con-pic-right .glp21 img:nth-child(1) {
+    width: 100%;
+    margin-left: 10px;
+}
+.gl-con-pic-left .glp22 img:nth-child(1) {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
